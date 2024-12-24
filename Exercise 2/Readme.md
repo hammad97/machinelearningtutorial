@@ -87,6 +87,5 @@ day of week in the past. For e.g. the prediction of Monday ahead should be the m
 all sales for this particular store on all previous Mondays.
 h. Reason why or why not Linear Regression is a good choice for this task.
 ```
-### 3
 
 
