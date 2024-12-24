@@ -1,37 +1,23 @@
-Lab Course Machine Learning
 
-Exercise Sheet 1
+## Exercise 1: Python Warmup (10 Points)  
 
-Prof. Dr. Dr. Lars Schmidt-Thieme, Shereen Elsayed Information Systems and Machine Learning Lab     University of Hildesheim
+### Part A: IPython (2 Points)  
+1. Write a **word count program** using IPython (a web version provided by Jupyter Notebook).  
+2. The program should:  
+   - Read the text document (`random_text.txt`) provided on Learnweb.  
+   - Output the following:  
+     - The number of **unique non-stop words**.  
+       *Hint:* Use the `nltk` library to retrieve a list of English stop words.  
+     - The **top 5 most frequent words**.  
 
-November 5th, 2021
+---
 
-Submission on November 12th, 2021 at 12:00 noon, (on learnweb, course code 3116)
+### Part B: Numpy (8 Points)  
+Implement an **image blurring program** using Numpy matrices.  
 
-Instructions
-
-Please following these instructions for solving and submitting the exercise sheet.
-
-1. You should submit a jupyter notebook detailing your solution or as pdf report + the notebook.
-1. Please explain your approach i.e. how you solved a given problem and present your results in form of graphs and tables.
-1. Please submit your jupyter notebook to learnweb before the deadline. Please refrain from emailing the solutions except in case of emergencies.
-1. Unless explicitly noted, you are not allowed to use scikit, sklearn or any other library for solving any part.
-1. Please refrain from plagiarism.
-
-Exercise 1: Python Warmup (10 Points)
-
-Install Anaconda and Jupyter notebooks (latest version; python latest version);[ https://www.anacon da.com/products/individual.](https://www.anaconda.com/products/individual)
-
-Part A: (2 Points): IPython In this task you are required to use IPython (a web version provided by Jupyter nootbook). You have to write a word count program. Your program should read the provided text document on learnweb named "random\_text.txt" and then output the following stats:
-
-- the number of unique Non-stop words. hint\* you can use "nltk" library to get a list of English language stop words.
-- the top 5 most frequent words.
-
-Part B: (8 Points): numpy In this exercise, we shall implement an image blurring program using numpy matrices. Numpy is a popular numerical operations library that is widely used in the python machine learning ecosystem. Please familiarize yourself with this library by following the documentation online [numpy.org. The](numpy.org) exact task details include:
-
-1. Install matplotlib library and use the given utilities to read and display the image[ 1.](#_page1_x90.00_y435.93)
-
-2. Initialize an averaging filter as follows:
+#### Task Details:  
+1. Install the `matplotlib` library and use it to read and display the image.  
+2. Initialize an averaging filter as follows: 
 
   1 1 1
 
