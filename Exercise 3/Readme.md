@@ -51,27 +51,8 @@ gorithm. Reference lecture https://www.ismll.uni-hildesheim.de/lehre/ml-20w/
 script/ml-02-A1-linear-regression.pdf
 For each dataset given above:
 
-- 1. A set of training dataDtrain={(x(1),y(1)),(x(2),y(2)),...,(x(N),y(N))}, wherex∈RM,y∈
+- 1. A set of training data Dtrain={(x(1),y(1)),(x(2),y(2)),...,(x(N),y(N))}, where x∈RM,y∈
     R,whereNis number of training examples andMis number of features
-- Linear Regression model is given asˆyn=
-
-#### PM
-
-```
-m=1βmx
-```
-```
-n
-m
-```
-- Least square loss function is given asl(x,y) =
-
-#### PN
-
-```
-n=1(y
-n−yˆn) 2
-```
 - Minimize the loss functionl(x,y)using Gradient Descent algorithm. Implement (learn-linregGD
     and minimize-GD algorithms given in the lecture slides). Chooseimaxbetween 100 to 1000. Explain
     your choice [hint: the following plots might be useful in your choice.]
@@ -79,15 +60,7 @@ n−yˆn) 2
     learning and record
        - In each iteration of the minimize-GD algorithm calculate|f(xi− 1 )−f(xi)|and (whenimaxis
           reached), plot it against iteration number i. Explain the graph.
-       - In each iteration step also calculate RMSE on test setRMSE=
-
-```
-qPT
-q=1(y
-qtest−yˆq) 2
-T and plot
-it against iteration number i. Explain the graph.
-```
+       - In each iteration step also calculate RMSE on test
 ## Exercise 3: Steplength Control for Gradient Descent (2+2+3)
 
 This task is based on the Gradient Descent algorithm above. You have to implement the following step-
@@ -106,16 +79,7 @@ For each step length algorithm and for each dataset in Exercise 2:
 
 - In each iteration of the minimize-GD algorithm calculate|f(xi− 1 )−f(xi)|and plot it against itera-
     tion number i. Explain the graph.
-- In each iteration step also calculate RMSE on test setRMSE=
-
-```
-qPT
-q=1(y
-q
-test−ˆyq)^2
-T , plot it against
-iteration number i. Explain the graph.
-```
+- In each iteration step also calculate RMSE on test 
 Declare a winning step-length controller based on the metric RMSE. You should tune the associated
 hyperparameters of the step-length controller(s).
 
