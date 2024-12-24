@@ -4,7 +4,7 @@
 ### Part A: IPython (2 Points)  
 1. Write a **word count program** using IPython (a web version provided by Jupyter Notebook).  
 2. The program should:  
-   - Read the text document (`random_text.txt`) provided on Learnweb.  
+   - Read the text document (`random_text.txt`) .  
    - Output the following:  
      - The number of **unique non-stop words**.  
        *Hint:* Use the `nltk` library to retrieve a list of English stop words.  
